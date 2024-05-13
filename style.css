@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+  }
+  
+  
+  
+  ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-right: 60px;
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+  }
+  
+  header {
+    font-weight: 500;
+    background-color: #F58C39;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+  }
+  
+  ul li a:hover {
+    background-color: #FAAA34;
+    color: white;
+  }
+  
+  ul li.active a {
+    background-color: black;
+    color: white;
+  
+  }
+
+  .body {
+    background-color: #F58C39;
+  }
+  
+  .logo img {
+    float: left;
+    margin-top: 10px;
+    width: 120px;
+    height: auto;
+    margin-left: 150px;
+  }
+  
+  
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .smokin-burger {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .align {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 387px;
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+        width: 171.7px;
+    height: 166px;
+    }
+    
+    .only-1299 {
+        position: absolute;
+        top: 650px; 
+        left: 59px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        margin-left: 250px;
+    }
+
+    .hero {
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 20px;
+        top: 600px; 
+        left: 59px;
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .order-now {
+        position: absolute;
+        top: 690px;
+        left: 50%;
+        margin-left: 200px;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: black;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .discount {
+        position: absolute;
+        top: 750px;
+        right: 55px;
+        margin-right: 300px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .on-your-first {
+        position: absolute;
+        top: 730px;
+        right: 55px;
+        margin-right: 150px;
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .gp-button-free-img-icon {
+        position: absolute;
+        top: 820px;
+        left: 860px;
+        width: 176px;
+        height: 52px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+
+    .as-button-free-img-icon {
+        position: absolute;
+        top: 820px;
+        right: 164px;
+        width: 176px;
+        height: 52px;
+        object-fit: cover;
+        margin-right: 300px;
+    }
+
+    
+
+    .baked-with-natural {
+        position: absolute;
+        top: 990px; 
+        left: 50%;
+        transform: translateX(-50%); 
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .fresh-buns {
+        position: absolute;
+        top: 1070px;
+        left: 460px;
+        width: 300px; /* Set width */
+        height: auto; /* Set height to auto to adjust based on content */
+        padding: 20px; /* Add padding */
+        background-color: #fff; /* Add background color */
+        border: 2px solid #FAAA34; /* Add border */
+        border-radius: 10px; 
+        box-shadow: 0 0 10px #FAAA34; 
+    }
+
+    .our-menu {
+        position: absolute;
+        top: 1360px;
+        left: calc(50% - 74px);
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .sub-menu {
+        position: absolute;
+        top: 1400px; /* Adjust the top position as needed */
+        left: 50%; /* Move to the center horizontally */
+        transform: translateX(-50%);
+        font-size: 20px; /* Adjust font size as needed */
+        font-weight: 600;
+        color: #000;
+    }
+    
+    
+    .chicken-burger-container {
+        position: absolute;
+        top: 1440px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px; 
+        padding: 20px; 
+        background-color: #fff; 
+        border: 2px solid #FAAA34;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px #FAAA34; 
+    }
+    
+    .fatboy-burger- {
+        margin-bottom: 10px; 
+        border-bottom: 1px solid #ccc; 
+        padding-bottom: 10px; 
+        list-style-type: none; 
+    }
+    
+    .chicken-burger- {
+        margin: 0; 
+        font-family: inherit;
+        font-size: inherit;
+        padding: 0; 
+        margin-left: 0; 
+    }
+
+    .our-customer-reviews {
+        position: absolute;
+        top: 1860px;
+        left: calc(50% - 174px);
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .patricia-robert {
+        position: absolute;
+        top: 1960px;
+        left: calc(50% - 350px);
+        font-weight: 600;
+        margin-left: 100px;
+    }
+
+    .delicious-food-and-container {
+        position: absolute;
+        top: 2010px;
+        left: calc(50% - 350px);
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+
+    .linda-steven {
+        position: absolute;
+        top: 2154px;
+        left: calc(50% - 349px);
+        font-weight: 600;
+        margin-left: 100px;
+    }
+    
+    .the-best-burger-container {
+        position: absolute;
+        top: 2203px;
+        left: calc(50% - 349px);
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+
+    .david-william {
+        position: absolute;
+        top: 2423px;
+        left: calc(50% - 350px);
+        font-weight: 600;
+        margin-left: 100px;
+    }
+    
+    .very-fresh-food-container {
+        position: absolute;
+        top: 2472px;
+        left: calc(50% - 349px);
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+   
+
+.choose-enjoy {
+        margin-bottom: 10px;
+    
+}
+    
+.testimonial-01 {
+    position: absolute;
+    top: 1849px;
+    left: 141px;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial-03 {
+    position: absolute;
+    top: 2117px;
+    left: 141px;
+    border-radius: 30px;
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+}
+
+.testimonial-13 {
+    position: absolute;
+    top: 2385px;
+    left: 141px;
+    border-radius: 30px;
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+}
+
+.our-outlets {
+    position: absolute;
+    top: 3902px;
+    left: calc(50% - 60px);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.find-an-outlet {
+    position: absolute;
+    top: 2770px;
+    left: calc(50% - 179px);
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.outlet-1-container {
+    position: absolute;
+    top: 2869px;
+    left: calc(50% - 362px);
+    font-weight: 600;
+}
+
+.cb {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+
+    
+
+
+    
